@@ -1,0 +1,51 @@
+.search-form {
+    margin: auto auto;
+    text-align: center;
+}
+
+.results-div {
+    width: 90%;
+    margin: auto auto;
+}
+
+.results-chart {
+    margin: 0 0 20px 0;
+}
+
+.table-div {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: auto;
+}
+
+.results-table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    font-size: 15px;
+}
+
+.results-table tr:hover {
+    background-color: lightblue;
+}
+
+.results-table tr.focus {
+    background-color: rgb(122, 205, 233);
+}
+
+.results-table td, .results-table th {
+    border: 1px solid black;
+    border-spacing: 0px;
+    padding: 3px;
+    text-align: center;
+}
+
+.results-table th {
+    background-color: lightgrey;
+}
+
+.category-column {
+    position: sticky;
+    z-index: 1;
+    left:0;
+    background-color: lightgrey;
+    white-space: nowrap;
+}
